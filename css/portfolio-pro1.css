@@ -1,0 +1,166 @@
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+}
+
+.cap1
+{
+    position:absolute;
+    width:100%;
+    height:184px;
+    background:rgba(0, 0, 0, 0.6);
+    top:0px;
+    left:-100%;
+    transition: all .5s;
+    background: url('../img-home/plus.png') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+  
+}
+
+
+.but{
+    background-color: #e8663c;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Bebas;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0;
+    margin-right: 20px;
+
+}
+.btn2,
+.btn3{
+    background-color: #fff;
+    color: #d6d6d6;
+}
+
+.btn2:hover{
+    background-color: #e8663c;
+    color: #fff;
+}
+.btn3:hover{background-color: #e8663c;}
+
+
+/**/
+ .bord{
+    border: 1px solid #b6b6b6;
+    border-top: none; 
+    min-height: 270px;
+    
+}
+
+.each-item{
+  margin-bottom: 50px;  
+}
+
+.iteam1 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-1.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam2 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-2.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+
+.iteam3 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-3.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam4 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-4.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam5 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-5.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam6 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-6.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam7 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-7.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam8 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-8.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam9 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-9.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam10 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-10.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam11 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-11.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam12 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-12.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+
+.each-item h5 {
+    color: #b6b6b6;
+    font-size: 22px;
+    margin: 10px 14px 0 14px;
+
+}
+
+.each-item p {
+    color: #F15F36;
+    font-family: Bebas;
+    line-height: 15px;
+    margin-left: 14px;
+}

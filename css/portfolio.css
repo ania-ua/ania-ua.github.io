@@ -1,0 +1,163 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 238px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 238px;
+  
+}
+
+@font-face{
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Bebas;
+    color: #e8603c;
+}
+.container{
+    border: 10px solid #fefefe;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;  
+    position: relative; 
+}
+
+header{
+    min-height: 75px;
+    background-color: #ffffff;
+}
+
+header h1{  
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-transform: uppercase;
+    
+}
+
+header h1 span:first-child{
+    color: #F15F36;
+}
+
+header h1 span:last-child{
+    color: #F5B19C;
+}
+
+a,a:hover{text-decoration: none;}
+
+header nav a{
+    float: right;
+    font-family: Bebas;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-left: 30px;
+    color: #d6d6d6;
+    text-transform: uppercase;
+}
+
+header nav a:hover{color: #f0836a;}
+header nav a.active {color: #F15F36;}
+/*
+.menu nav a{
+    float: left;
+    font-family: Bebas;
+    font-size: 18px;
+    margin-right: 30px;
+    color: #d6d6d6;
+    text-transform: uppercase;
+}
+
+.menu nav li a.active {
+    color: #fff;
+    background-color: #e8663c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu nav a.active {color: #F15F36;}
+
+/*title*/
+
+.title-bg{
+    background-color: #f3ae97;
+    height: 61px;
+}
+
+.title{
+    margin-bottom: 23px;
+    height: 61px;
+    background-color: #e8663c;
+}
+
+.title h1{
+    color: white;
+    font-weight: bold;
+    font-size: 28px; 
+    margin-top: 0;
+    padding: 17px 17px;
+}
+/**/
+.tubnails a{
+    display: block;
+    background-color: pink;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+.footer{background-color: #e8663c;
+}
+
+.footer h4{
+    color: white;
+    font-size: 25px;
+    margin: 34px 34px 22px;
+    letter-spacing: 1px;
+}
+
+.footer p{
+    font-size: 12px;
+    margin-left: 33px;
+    padding-right: 10px;
+    color: #fff;
+    line-height: 15px;
+    /*padding-bottom: 33px;*/
+}
+
+.footer span{
+    color: #f7b39d;
+}
+
+.social a{
+    float: left;
+}
+
+.social li{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.social ul{
+    margin-left: 33px;
+}
+.footer-bg{background-color: #f3ae97;}
+
+

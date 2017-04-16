@@ -1,0 +1,84 @@
+@font-face{
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Bebas;
+    color: #e8603c;
+}
+.container{
+    border: 10px solid #fefefe;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;  
+    position: relative; 
+}
+
+.pad-right{
+    padding-right: 25px;
+}
+
+
+header h1{  
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0px;
+    text-transform: uppercase;
+    
+}
+
+
+   .menu .navbar-nav > li > a {
+   
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+
+}
+
+
+/* цвет фона и рамки навигационного меню */
+    .menu .navbar-default {
+        background-color: #fff;
+        border: none;
+    }
+    
+    /* Цвет пунктов навигационного меню */
+   .menu .navbar-default .navbar-nav > li > a {
+        
+        font-family: Bebas;
+        font-size: 18px;
+        color: #d6d6d6;
+        padding-right: 25px;
+   
+    }
+    /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+   .menu .navbar-default .navbar-nav > li > a:hover,
+   .menu .navbar-default .navbar-nav > li > a:focus {
+        color: #F15F36;
+    }
+    /* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .menu .navbar-default .navbar-nav > .active > a, 
+    .menu .navbar-default .navbar-nav > .active > a:hover, 
+   .menu .navbar-default .navbar-nav > .active > a:focus {
+        color: #d1ffed;
+       
+    }
+
+   .navbar-default .navbar-nav a.active {color: #F15F36;}
+
+   .menu nav a{ float: right;
+    }
+
+

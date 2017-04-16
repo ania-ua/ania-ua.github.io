@@ -1,0 +1,353 @@
+@font-face{
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Bebas;
+    color: #e8603c;
+}
+.container{
+    border: 10px solid #fefefe;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;  
+    position: relative; 
+}
+
+.pad-right{
+    padding-right: 25px;
+}
+
+header{
+	min-height: 75px;
+    background-color: #ffffff;
+}
+
+header h1{	
+	float: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-transform: uppercase;
+    
+}
+
+header h1 span:first-child{
+    color: #F15F36;
+}
+
+header h1 span:last-child{
+    color: #F5B19C;
+}
+
+a,a:hover{text-decoration: none;}
+
+header nav a{
+    float: right;
+    font-family: Bebas;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-left: 30px;
+    color: #d6d6d6;
+    text-transform: uppercase;
+}
+
+header nav a:hover{color: #f0836a;}
+header nav a.active {color: #F15F36;}
+
+
+/*title*/
+
+.title-bg{
+    background-color: #f3ae97;
+    height: 61px;
+}
+
+.title{
+    margin-bottom: 23px;
+    height: 61px;
+    background-color: #e8663c;
+}
+
+.title h1{
+    color: white;
+    font-weight: bold;
+    font-size: 28px; 
+    margin-top: 0;
+    padding: 17px 17px;
+}
+
+/*карта*/
+
+.map{margin-bottom: 34px;}
+
+/*text+form*/
+
+p{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.form-horizontal{padding-left: 20px;}
+.form-horizontal .more{
+    background-color: #e8663c;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Bebas;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 44px;
+ }
+
+.form{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #e8603c;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #e8603c;
+    border-radius: 0px;
+
+}
+.placeholder {color: #e8603c}
+.message{
+   resize:none;
+    height: 205px !important;
+}
+
+/*right sidebar*/
+
+.about h4{
+    background: url('../img-blog/line.gif') repeat-x;
+    height: 16px;
+    margin: 0;
+}
+
+.about span{
+    background-color: #ffffff;
+    text-align: left;
+    padding-right: 22px;
+    color: #e8603c;
+    font-size: 19px;
+    padding-top: 0;
+}
+
+.about p{
+    color: #595252;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+
+.about a{
+    font-size: 12px;
+    color: #595252;
+    text-decoration: none;
+    line-height: 12px;
+    
+}
+
+.about a:hover{color: #f0836a;}
+
+.about ul{
+  line-height: 15px;
+  padding-top: 22px;
+  padding-left: 0;
+  padding-bottom: 40px;
+  list-style-type: none;
+} 
+
+
+.gallery > div{
+    padding-left: 0;
+    padding-top: 20px;
+    padding-right: 6px;
+    padding-bottom: 35px;
+
+}
+.pg-1 {
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/pg-1.jpg'); 
+    background-repeat: no-repeat;
+    background-size:  auto 100% ;
+    height: 50px;
+    width: 50px;
+    float: left;
+
+   }
+
+.pg-2 {
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/pg-2.jpg');
+    background-repeat: no-repeat;
+    background-size:  auto 100% ;
+    height: 50px;
+    width: 50px;
+    float: left;
+   }
+
+   /*blog*/
+
+.posit {position: relative;}
+
+.left-icon-1 {
+    position: absolute;
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/left-icon-1.jpg'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 55px;
+    width: 55px;
+    top: 0;
+    left: -55px;
+    z-index: 10;
+    display: inline-block;
+}
+
+.left-icon-2 {
+    position: absolute;
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/left-icon-2.jpg'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 55px;
+    width: 55px;
+    top: 0;
+    left: -55px;
+    z-index: 10;
+    display: inline-block;
+}
+
+.left-icon-3 {
+    position: absolute;
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/left-icon-3.jpg'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 55px;
+    width: 55px;
+    top: 0;
+    left: -55px;
+    z-index: 10;
+    display: inline-block;
+}
+
+.left-icon-4 {
+    position: absolute;
+    background-color: #f3af9d;
+    border: 1px solid #e8603c;
+    background-image: url('../img-blog/left-icon-4.jpg'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 55px;
+    width: 55px;
+    top: 0;
+    left: -55px;
+    z-index: 10;
+    display: inline-block;
+}
+
+/*post1*/
+
+h3{
+    font-size: 14px;
+    margin-top: 24px; 
+    
+}
+p{
+    font-size: 12px;
+    color: #b5b2b2;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 20px; 
+    padding-left: 24px;
+}
+#p-black1{
+    color: #595252;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+ #p-black2{
+    color: #595252;
+    padding-left: 24px;
+    padding-bottom: 50px;
+    margin: 0;
+ }
+
+.line div{
+    background: url('../img-blog/line.gif') repeat-x;
+    height: 18px;
+    margin-bottom: 44px;
+}
+
+#post2{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+   /*footer*/
+.footer{background-color: #e8663c;
+}
+
+.footer h4{
+    color: white;
+    font-size: 25px;
+    margin: 34px 34px 22px;
+    letter-spacing: 1px;
+}
+
+.footer p{
+    font-size: 12px;
+    margin-left: 33px;
+    padding-right: 10px;
+    color: #fff;
+    line-height: 15px;
+    /*padding-bottom: 33px;*/
+}
+
+.footer span{
+    color: #f7b39d;
+}
+
+.social a{
+    float: left;
+}
+
+.social li{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.social ul{
+    margin-left: 33px;
+}
+.footer-bg{background-color: #f3ae97;}

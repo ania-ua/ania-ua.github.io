@@ -1,0 +1,23 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 403px) {
+	 .each-item{
+		min-height: 300px;
+	}
+
+	.each-item .iteam h5{
+		font-size: 16px;
+	}
+
+	.each-item {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width : 768px){
+	.navbar-header h1{padding-left: 10px;}
+	header ul{ padding-right: 10px; }
+	header nav a {
+		float: none;
+		margin-left: 10px;}
+}

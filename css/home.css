@@ -1,0 +1,356 @@
+@font-face{
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Bebas;
+}
+.container{
+    border: 10px solid #fefefe;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+header{
+	min-height: 75px;
+    background-color: #fff;
+}
+
+header h1{	
+	float: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-transform: uppercase;
+    
+}
+
+header h1 span:first-child{
+    color: #F15F36;
+}
+
+header h1 span:last-child{
+    color: #F5B19C;
+}
+
+a,a:hover{text-decoration: none;}
+
+header nav a{
+    float: right;
+    font-family: Bebas;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-left: 30px;
+    color: #d6d6d6;
+    text-transform: uppercase;
+}
+
+header nav a:hover{color: #f0836a;}
+header nav a.active {color: #F15F36;}
+
+
+
+/*carousel*/
+#carousel{
+    position: relative;
+}
+
+
+.carousel-inner{
+    width: 100%;
+}
+ 
+.left.carousel-control{
+    position: absolute;
+    background-image: url('../img-blog/prev.png'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 55px;
+    top: 30%;
+    left: 20px;
+    z-index: 10;
+   }
+
+.right.carousel-control{
+    position: absolute;
+    background-image: url('../img-blog/next.png'); /* Путь к фоновому изображению */
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 55px;
+    top: 30%;
+    /*right: 26px;*/
+    z-index: 10;
+   }
+
+.carousel-bg{
+    background-color: #f3ae97;
+    height: 61px;
+}
+
+
+
+.control .carousel-control{
+    position: absolute;
+}
+.carousel-control{
+    position: absolute;
+    color: #fff;
+    opacity: 10%;
+}
+
+.carousel-caption {
+    background: rgba(202,94,55,0.8);
+    color: white;
+    bottom: 32px;
+    left: 32px;
+    position: absolute;
+    width: 420px;
+    height: 125px;
+    padding: 17px 19px;
+    text-shadow: none;
+    text-align: left;
+}
+
+.carousel-caption h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 14px;
+}
+
+.img1{
+    background: url('../img-blog/01.jpg') no-repeat center;
+   background-size: cover; 
+    height: 400px;
+    
+}
+
+.img2{
+    background: url('../img-blog/02.jpg') no-repeat center;
+   background-size: cover; 
+    height: 400px;
+    
+}
+
+/*picture*/
+
+.thumbnail{
+height: auto;
+background-color: #e8663c;
+margin-top: 18px;
+padding: 0;
+border-radius: 0;}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*articles*/
+
+.articles .icon {
+    margin: 0 auto;
+    float: left;
+    height: 41px;
+    width: auto;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+ .articles h4 {
+    float: left;
+    color: #F15F36;
+    font-size: 24px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.articles p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 33px;
+}
+
+/*кнопка*/
+.title{
+    text-align: left;
+    font: bold 18px/24px Bebas, sans-serif;
+    text-transform: uppercase;
+    color: #e8663c;
+    margin-top: 0;
+
+}
+.articles .more{
+    background-color: #e8663c;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: Bebas;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 44px;
+ }
+
+ /*recent*/
+ .recent h4{
+    background: url('../img-home/line.gif') repeat-x;
+    height: 18px;
+   
+}
+
+.recent span{
+    background-color: #fdfdfd;
+    text-align: left;
+    padding-right: 22px;
+    color: #e8663c;
+    font-size: 24px;
+    line-height: 21px;
+}
+
+
+.iteam .bord{
+    border: 1px solid #b6b6b6;
+    border-top: none; 
+    margin-top: 23px;
+    margin-bottom: 50px;
+    
+}
+
+.iteam1 > div{
+    background-color: #f3af9d;
+    background: url('../img-home/recent-1.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+    /*margin-top: 18px;
+    margin-bottom: 40px;
+    padding: 0;*/
+    
+
+
+}
+
+.iteam2 > div{
+    background-color: #f3af9d;
+     background: url('../img-home/recent-2.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+
+.iteam3 > div{
+    background-color: #f3af9d;
+     background: url('../img-home/recent-3.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam4 > div{
+    background-color: #f3af9d;
+     background: url('../img-home/recent-4.jpg') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+    height: 184px;
+    width: 100%;
+}
+.iteam h5 {
+    color: #b6b6b6;
+font-size: 22px;
+margin: 10px 14px 0 14px;
+
+}
+
+.iteam p {
+        color: #F15F36;
+    font-family: Bebas;
+    line-height: 15px;
+    margin-left: 14px;
+}
+/*footer*/
+.footer{background-color: #e8663c;
+}
+
+.footer h4{
+    color: white;
+    font-size: 25px;
+    margin: 34px 34px 22px;
+    letter-spacing: 1px;
+}
+
+.footer p{
+    font-size: 12px;
+    margin-left: 33px;
+    padding-right: 10px;
+    color: #fff;
+    line-height: 15px;
+    /*padding-bottom: 33px;*/
+}
+
+.footer span{
+    color: #f7b39d;
+}
+
+.social a{
+    float: left;
+}
+
+.social li{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.social ul{
+    margin-left: 33px;
+}
+.footer-bg{background-color: #f3ae97;}
+
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+}
+
+.cap1
+{
+    position:absolute;
+    width:100%;
+    height:184px;
+    background:rgba(0, 0, 0, 0.6);
+    top: 23px;
+    left:-100%;
+    transition: all .5s;
+    background: url('../img-home/plus.png') no-repeat center; /* Путь к фоновому изображению */
+    background-size: cover;
+  
+}
+
+

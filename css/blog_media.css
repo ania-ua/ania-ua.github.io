@@ -1,0 +1,49 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 530px) {
+	#myCarousel .carousel-control.left{
+		width: 15%;
+		left: 10px;
+		bottom: 15px;
+
+	}
+
+	
+}
+
+
+@media only screen and (max-width : 850px) {
+	.left-icon-1,
+	.left-icon-2,
+	.left-icon-3,
+	.left-icon-4{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width : 770px) {
+	.ryad{
+		display: inline;
+		float: left;
+		width: 32%;
+	}
+
+	.p-black h2,
+	.p-black #p-black1,
+	.p-black #p-black2{
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width : 768px){
+	.navbar-header h1{padding-left: 10px;}
+	header ul{ padding-right: 10px; }
+	header nav a {
+		float: none;
+		margin-left: 10px;}
+}
+
+@media only screen and (max-width : 991px){
+	.pad-right {padding-right: 0px;}
+}

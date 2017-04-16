@@ -1,0 +1,32 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.form-horizontal{
+		padding-left: 0;
+		
+	}
+
+.about{
+	padding-left: : 0;
+	padding-right: 0;
+}
+
+
+.left-icon-1{	
+	visibility: hidden; /*приховує картинку*/
+}
+
+/*.right-sidebar{padding-right: 25px;}*/
+
+.navbar-header h1{padding-left: 10px;}
+header ul{ padding-right: 10px; }
+header nav a {
+		float: none;
+		margin-left: 10px;}
+
+
+}
+@media only screen and (max-width : 991px){
+	.pad-right {padding-right: 0px;}
+}
+	
